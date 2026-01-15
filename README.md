@@ -18,6 +18,47 @@ A abordagem garante código confiável, limpo, testável e de fácil manutençã
 
 O **Test Driven Development (TDD)** prioriza a escrita de testes antes do código de produção. Cada funcionalidade foi validada por testes unitários desde o início do desenvolvimento.
 
+## 🛠️ Instalação do Pytest
+
+Os testes unitários deste projeto utilizam o **Pytest**, uma das bibliotecas mais populares para testes em Python.
+
+### 📋 Pré-requisitos
+
+* Python **3.8 ou superior**
+* `pip` instalado
+
+### 📥 Instalação do Pytest
+
+Recomenda-se a instalação em um **ambiente virtual**:
+
+```bash
+python -m venv venv
+source venv/bin/activate  # Linux/macOS
+venv\Scripts\activate     # Windows
+```
+
+Em seguida, instale o Pytest:
+
+```bash
+pip install pytest
+```
+
+Para verificar se a instalação foi concluída com sucesso:
+
+```bash
+pytest --version
+```
+
+### ▶️ Executando os testes
+
+Com o Pytest instalado, execute todos os testes do projeto com o comando:
+
+```bash
+pytest
+```
+
+---
+
 ## ⚙️ Funcionalidades Implementadas
 
 O módulo de calculadora possui os seguintes métodos:
