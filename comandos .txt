@@ -1,0 +1,34 @@
+source venv/bin/activate -> Ativar Venv
+pytest -v -> executa os testes e mostra todo
+
+
+Testes do método somar
+pytest test_calculadora_service.py::TestCalculadoraService::test_somar_dois_numeros_positivos -v
+pytest test_calculadora_service.py::TestCalculadoraService::test_somar_positivo_e_negativo -v
+pytest test_calculadora_service.py::TestCalculadoraService::test_somar_dois_zeros -v
+
+Testes do método subtrair
+pytest test_calculadora_service.py::TestCalculadoraService::test_subtrair_dois_numeros -v
+pytest test_calculadora_service.py::TestCalculadoraService::test_subtrair_com_resultado_negativo -v
+pytest test_calculadora_service.py::TestCalculadoraService::test_subtrair_com_resultado_negativo -v
+
+Testes do método multiplicar
+pytest test_calculadora_service.py::TestCalculadoraService::test_multiplicar_dois_positivos -v
+pytest test_calculadora_service.py::TestCalculadoraService::test_multiplicar_por_zero -v
+pytest test_calculadora_service.py::TestCalculadoraService::test_multiplicar_numeros_negativos -v
+
+Testes do método dividir
+pytest test_calculadora_service.py::TestCalculadoraService::test_dividir_dois_numeros -v
+pytest test_calculadora_service.py::TestCalculadoraService::test_dividir_por_zero_deve_lancar_excecao -v
+pytest test_calculadora_service.py::TestCalculadoraService::test_dividir_numeros_decimais -v
+
+Testes do método isPar
+pytest test_calculadora_service.py::TestCalculadoraService::test_is_par_numero_par -v
+pytest test_calculadora_service.py::TestCalculadoraService::test_is_par_numero_impar -v
+pytest test_calculadora_service.py::TestCalculadoraService::test_is_par_zero -v
+
+Testes do método validarNumeroPositivo
+pytest test_calculadora_service.py::TestCalculadoraService::test_validar_numero_positivo -v
+pytest test_calculadora_service.py::TestCalculadoraService::test_validar_numero_negativo -v
+pytest test_calculadora_service.py::TestCalculadoraService::test_validar_zero -v
+
